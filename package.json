@@ -1,0 +1,25 @@
+{
+  "name": "yui-deps",
+  "version": "0.0.0",
+  "description": "Precompute yui dependencies tree",
+  "main": "lib/yui-deps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clicrdv/yui-deps.git"
+  },
+  "keywords": [
+    "yui",
+    "packaging",
+    "package",
+    "loader"
+  ],
+  "author": "ClicRDV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clicrdv/yui-deps/issues"
+  },
+  "homepage": "https://github.com/clicrdv/yui-deps"
+}

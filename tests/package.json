@@ -1,0 +1,8 @@
+{
+   "name": "yui-deps-test",
+   "private": true,
+   "version": "0.0.0",
+   "dependencies": {
+      "yui": "3.14.0"
+   }
+}  
