@@ -16,7 +16,8 @@ var packages = deps({
    ],
    require: ['custom-init'],
    splitLangs: true,
-   packageName: 'package_test'
+   packageName: 'package_test',
+   setup: setup
 });
 
 console.log(packages);
