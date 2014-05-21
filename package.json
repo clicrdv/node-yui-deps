@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/clicrdv/yui-deps/issues"
   },
-  "homepage": "https://github.com/clicrdv/yui-deps"
+  "homepage": "https://github.com/clicrdv/yui-deps",
+  "dependencies": {
+    "yui": "^3.16.0"
+  }
 }

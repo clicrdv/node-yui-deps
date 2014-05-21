@@ -4,6 +4,9 @@ var deps = require('../lib/yui-deps.js'),
 
 function setup (Y, config) {
    console.log('setup', config);
+   if(!config.groups.inputex){
+      config.groups.inputex = {};
+   }
    config.groups.inputex.base = '/javascripts/lib/inputex-3.2.0/build/';
    config.base = '/javascripts/lib/yui-3.9.1/';
 }
