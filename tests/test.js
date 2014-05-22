@@ -18,6 +18,7 @@ var packages = deps({
       'customLoader.js'
    ],
    require: ['custom-init'],
+   use:["history-hash-ie"],
    splitLangs: true,
    packageName: 'package_test',
    setup: setup
