@@ -11,17 +11,21 @@ function setup (Y, config) {
    config.base = '/javascripts/lib/yui-3.9.1/';
 }
 
-var packages = deps({
+deps({
    YUI: YUI,
    langs: ['fr', 'de', 'es', 'en', 'nl'],
    loaders: [
-      'customLoader.js'
+    '../node_modules/yui/yui/yui.js',
+    'customLoader.js'
    ],
    require: ['custom-init'],
    use:["history-hash-ie"],
    splitLangs: true,
    packageName: 'package_test',
    setup: setup
+}, function (packages) {
+
+  console.log(packages);
+
 });
 
-console.log(packages);
