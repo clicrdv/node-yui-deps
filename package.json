@@ -1,8 +1,8 @@
 {
   "name": "yui-deps",
   "version": "0.0.0",
-  "description": "Precompute yui dependencies tree",
-  "main": "lib/yui-deps.js",
+  "description": "Precompute yui dependencies tree with Zombie.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "keywords": [
     "yui",
     "packaging",
-    "package",
+    "dependencies",
     "loader"
   ],
   "author": "ClicRDV",
@@ -22,9 +22,6 @@
     "url": "https://github.com/clicrdv/yui-deps/issues"
   },
   "homepage": "https://github.com/clicrdv/yui-deps",
-  "dependencies": {
-    "yui": "^3.16.0"
-  },
   "devDependencies": {
     "zombie": "^2.5.1"
   }
