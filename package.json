@@ -1,6 +1,6 @@
 {
   "name": "yui-deps",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Precompute yui dependencies tree with Zombie.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clicrdv/yui-deps.git"
+    "url": "https://github.com/clicrdv/node-yui-deps.git"
   },
   "keywords": [
     "yui",
@@ -17,9 +17,9 @@
     "loader"
   ],
   "author": "ClicRDV",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clicrdv/yui-deps/issues"
+    "url": "https://github.com/clicrdv/node-yui-deps/issues"
   },
   "homepage": "https://github.com/clicrdv/yui-deps",
   "devDependencies": {
