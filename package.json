@@ -1,6 +1,6 @@
 {
   "name": "yui-deps",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Precompute yui dependencies tree with Zombie.js",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/clicrdv/node-yui-deps/issues"
   },
   "homepage": "https://github.com/clicrdv/yui-deps",
-  "devDependencies": {
+  "dependencies": {
     "zombie": "^2.5.1"
   }
 }
